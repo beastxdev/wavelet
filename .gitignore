@@ -102,3 +102,11 @@ $RECYCLE.BIN/
 .build/
 .buildlog/
 migrate_working_dir/
+
+# Large binaries
+*.exe
+tools/*.exe
+
+# Lavalink
+backend/lavalink/*.jar
+backend/lavalink/logs/
