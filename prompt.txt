@@ -1,0 +1,89 @@
+You are a senior DevOps and GitHub engineer.
+
+I have a music application with:
+
+- Flutter frontend
+- Node.js backend
+- Lavalink server integration
+
+Set up a complete professional Git repository structure for this project.
+
+Requirements:
+
+1. Create the following structure:
+
+music-app/
+├── frontend/
+│   └── Flutter source code
+├── backend/
+│   └── Node.js source code
+├── lavalink/
+│   ├── application.yml
+│   └── documentation
+├── docs/
+├── assets/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   └── workflows/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .env.example
+└── CONTRIBUTING.md
+
+2. Generate a professional .gitignore for:
+   - Flutter
+   - Dart
+   - Node.js
+   - VS Code
+   - Android Studio
+   - IntelliJ
+   - Windows
+
+3. Ensure secrets are never committed:
+   - .env
+   - API keys
+   - Lavalink passwords
+   - Discord credentials
+   - OAuth secrets
+
+4. Create .env.example with placeholder values.
+
+5. Create a professional README.md containing:
+   - Project overview
+   - Features
+   - Tech stack
+   - Installation
+   - Backend setup
+   - Lavalink setup
+   - Flutter setup
+   - Development instructions
+   - Future roadmap
+
+6. Generate GitHub Actions workflows:
+   - Flutter analyze
+   - Flutter build check
+   - Node.js lint
+   - Node.js dependency install check
+
+7. Add a CONTRIBUTING.md guide explaining:
+   - Forking
+   - Branch creation
+   - Commit conventions
+   - Pull requests
+
+8. Add recommended Git commands:
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repository-url>
+git push -u origin main
+
+9. Use best practices for an open-source project.
+
+10. Output all files with full contents and explain where each file should be placed.
+
+Project name: Wavelet
+Type: Personal music streaming application using Flutter, Node.js and Lavalink.
