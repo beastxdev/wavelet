@@ -74,6 +74,7 @@ lavalink/logs/
 lavalink/plugins/*.jar
 lavalink/*.jar
 !lavalink/application.yml
+# Lavalink
 
 # IDEs and editors
 .idea/
