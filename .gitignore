@@ -110,3 +110,5 @@ tools/*.exe
 # Lavalink
 backend/lavalink/*.jar
 backend/lavalink/logs/
+
+tools/cloudflared.exe
