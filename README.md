@@ -16,7 +16,7 @@ wavelet/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── .env.example
+├── .env
 └── CONTRIBUTING.md
 ```
 
